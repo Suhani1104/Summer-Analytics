@@ -1,5 +1,5 @@
 # Summer-Analytics
-Overview
+Overview:
 This project implements a real-time, data-driven dynamic pricing engine for urban parking lots. The system ingests live data streams from city parking spaces and applies economic and data science principles to dynamically update parking prices. The primary objectives are to optimize utilization, reduce congestion, and maximize revenue by adjusting prices based on demand, environmental factors, and competition.
 
 Tech Stack
