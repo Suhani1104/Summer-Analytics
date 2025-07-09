@@ -13,7 +13,7 @@ Google Colab: Development and execution environment
 ### Architecture Diagram
 ```mermaid
 flowchart TD
-    A[Data Source: Parking Lot Sensors<br/>(CSV Stream)] --> B[Data Ingestion]
+    A[Data Source: Parking Lot Sensors\n(CSV Stream)]  --> B[Data Ingestion]
     B --> C[Feature Engineering<br/>(Pandas/Numpy)]
     C --> D[Dynamic Pricing Models]
     D --> E[Real-Time Price Output]
