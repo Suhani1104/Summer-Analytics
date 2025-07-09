@@ -1,8 +1,8 @@
 # Summer-Analytics
-Overview:
+###Overview:
 This project implements a real-time, data-driven dynamic pricing engine for urban parking lots. The system ingests live data streams from city parking spaces and applies economic and data science principles to dynamically update parking prices. The primary objectives are to optimize utilization, reduce congestion, and maximize revenue by adjusting prices based on demand, environmental factors, and competition.
 
-Tech Stack
+###Tech Stack
 Python 3
 Pandas: Data manipulation and analysis
 NumPy: Numerical computations
@@ -10,7 +10,7 @@ Bokeh: Interactive data visualization
 Panel: Dashboard and web app integration
 Google Colab: Development and execution environment
 
-Architecture Diagram
+###Architecture Diagram
 flowchart TD
     A[Data Source: Parking Lot Sensors<br/>(CSV Stream)] --> B[Data Ingestion]
     B --> C[Feature Engineering<br/>(Pandas/Numpy)]
@@ -20,7 +20,7 @@ flowchart TD
     F --> G[Panel Dashboard]
 
 
-Project Architecture & Workflow
+###Project Architecture & Workflow
 1. Data Ingestion
 Source: Simulated real-time data from parking lots, including occupancy, capacity, queue length, vehicle type, traffic, and special event indicators.
 Method: The dataset is loaded into a DataFrame from a local upload or a Google Drive link.
