@@ -11,6 +11,7 @@ Panel: Dashboard and web app integration
 Google Colab: Development and execution environment
 
 ### Architecture Diagram
+```mermaid
 flowchart TD
     A[Data Source: Parking Lot Sensors<br/>(CSV Stream)] --> B[Data Ingestion]
     B --> C[Feature Engineering<br/>(Pandas/Numpy)]
@@ -18,7 +19,7 @@ flowchart TD
     D --> E[Real-Time Price Output]
     E --> F[Bokeh Visualization]
     F --> G[Panel Dashboard]
-
+```
 
 ### Project Architecture & Workflow
 1. Data Ingestion
